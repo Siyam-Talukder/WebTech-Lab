@@ -1,10 +1,12 @@
 form{
     border: 1px solid grey;
-    border-radius: 10px;
-    padding:30px;
+    border-radius: 10px; /*side diya gol*/
+    padding:30px; /*box ar charpashe jaiga bare*/
     width: 500px;
-    margin: 5px auto;
+    margin: 5px auto;/* auto mane center */
+    position: relative;/*akhon form ar chardik or upper , lower limit */
 }
+
 p{
     background-color: rgb(32, 32, 94);
     color: white;
@@ -12,9 +14,10 @@ p{
     padding: 2px 5px;
     border-radius: 5px;
     position: absolute;
-    top: 50px;
-    left: 820px;
+    top: -30px;
+    left: 350px;
 }
+
 
 label{
     font-size: 20px;
@@ -55,3 +58,4 @@ button:hover{
 #email ,#name , #msg{
     margin-bottom: 15px;
 }
+
